@@ -1,5 +1,5 @@
 *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     box-sizing: border-box;
 }
 body{
@@ -41,7 +41,7 @@ button {
 }
 
 .section.one{
-    padding: 100px 20% 100px;
+    padding: 100px 20%;
     background-color: #1f2937;
 }
 .content{
@@ -55,3 +55,40 @@ button {
     justify-content: center;
 }
 /* section two */
+.section-two{
+    padding: 50px 10px 100px;
+}
+.information-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: bold;
+    
+} 
+.illustration-space{
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    flex: 1;
+}
+.second{
+    justify-content: space-between;
+}
+.image-subtext{
+    text-align: center;
+}
+/* Section three */
+.section-three{
+    background-color: #E5e7eb;
+    padding: 50px auto;
+}
+.quote{
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+.author{
+    text-align: right;
+}
