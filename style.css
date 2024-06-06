@@ -1,9 +1,12 @@
 *{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
 }
 body{
     margin: 0;
+}
+.section{
+    height: 500px;
 }
 /* Header */
 header{
@@ -13,12 +16,12 @@ header{
     gap: 10%;
     justify-content: space-around;
 }
-.header-item, .secondary-text{
+.header-item, .secondary-text, .note-text{
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
 }
-.header-logo{
+.header-logo, .note-title{
     font-size: 24px;
     color: #f9faf8;
 }
@@ -55,7 +58,7 @@ button {
     justify-content: center;
 }
 /* section two */
-.section-two{
+.section.two{
     padding: 50px 10px 100px;
 }
 .information-header{
@@ -70,19 +73,22 @@ button {
     border-radius: 10px;
     width: 150px;
     height: 150px;
-    margin: 0 auto;
+    margin: 0 ;
     flex: 1;
 }
 .second{
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5%;
 }
 .image-subtext{
     text-align: center;
 }
 /* Section three */
-.section-three{
+.section.three{
     background-color: #E5e7eb;
-    padding: 50px auto;
+    padding: 50px 20%;
+    display: flex;
+    align-items: center;
 }
 .quote{
     color: #1f2937;
@@ -91,4 +97,18 @@ button {
 }
 .author{
     text-align: right;
+}
+/* Section four */
+.section.four{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.note-blue{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
 }
