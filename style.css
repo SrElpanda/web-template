@@ -5,9 +5,7 @@
 body{
     margin: 0;
 }
-.section{
-    height: 500px;
-}
+
 /* Header */
 header{
     display: flex;
@@ -16,10 +14,14 @@ header{
     gap: 10%;
     justify-content: space-around;
 }
-.header-item, .secondary-text, .note-text{
+.header-item, .secondary-text, .note-text, .footer-text{
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
+}
+.header-item:hover{
+    background-color: #E5e7eb;
+    color: #1f2937;
 }
 .header-logo, .note-title{
     font-size: 24px;
@@ -49,7 +51,7 @@ button {
 }
 .content{
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 .image-space{
     display: flex;
@@ -71,8 +73,10 @@ button {
 .illustration-space{
     border: 2px solid #3882f6;
     border-radius: 10px;
-    width: 150px;
+    width: auto;
     height: 150px;
+    max-width: 150px;
+    max-height: 150px;
     margin: 0 ;
     flex: 1;
 }
@@ -111,4 +115,12 @@ button {
     justify-content: space-around;
     align-items: center;
     width: 80%;
+}
+/* Footer */
+footer{
+    background-color: #1f2937;
+    display: flex;
+    height: 100px;
+    align-items:center ;
+    justify-content: center;
 }
